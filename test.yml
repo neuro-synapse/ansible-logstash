@@ -1,4 +1,3 @@
----
 - hosts: all
   roles:
-    - role: sleighzy.kafka
+    - andrewrothstein.logstash
