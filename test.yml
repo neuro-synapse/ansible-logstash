@@ -1,7 +1,4 @@
 ---
--
-  hosts: 34.207.229.194
+- hosts: all
   roles:
-    -
-      role: andrewrothstein.logstash
-  sudo: true
+    - role: sleighzy.kafka
