@@ -1,6 +1,6 @@
 ---
 -
-  hosts: all
+  hosts: 34.207.229.194
   roles:
     -
       role: andrewrothstein.logstash
