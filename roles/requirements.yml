@@ -1,7 +1,2 @@
 ---
--
-  hosts: all
-  roles:
-    -
-      role: andrewrothstein.logstash
-  sudo: true
+  - src: andrewrothstein.logstash
